@@ -2,6 +2,7 @@
 #make the console print while the code is executing instead of waiting until all code is executed to print
 STDOUT.sync = true
 
+#based on http://stackoverflow.com/questions/9042426/explanation-of-ruby-code-for-building-trie-data-structures
 class Trie < Hash
   def initialize
   	#this initializes in the same manner as a Hash object by invoking the term 'super'
